@@ -262,6 +262,67 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-ASL查找长度" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2020/12/17/ASL%E6%9F%A5%E6%89%BE%E9%95%BF%E5%BA%A6/" class="article-date">
+      <time datetime="2020-12-17T00:30:17.000Z" itemprop="datePublished">2020-12-17</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/12/17/ASL%E6%9F%A5%E6%89%BE%E9%95%BF%E5%BA%A6/">ASL查找长度</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>ASL的平均成功长度要看放进去的元素.</p>
+<p>对应所有元素,计算其查找次数的总和,因为在这个表中只有这些元素能够被找到,所以只有这些元素能被查找成功.那么只要计算这些查找成功的元素查找的次数总和再除以这些元素的总数就能够确定ASL的平均查找成功长度啦.</p>
+<p>ASL的平均失败查找长度要看mod值</p>
+<p>初始选地址的概率就是$0～mod-1$，所以概率是$\frac{1}{mod}$</p>
+<p>然后从$0～mod-1$中的每个地址确定每个地址最大可能的失败查找次数,相当于从该位置到达其后最接近该位置的空格的长度.<br>(这里使用的是线性探测法,因为比较的时候比较到空格就不用继续比较了对吧).</p>
+<p>通过这样就能确定ASL的平均失败查找长度.</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
     <article id="post-icpc-上海" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
