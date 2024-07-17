@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Linn</title>
+    <link>https://iridescentttt.github.io/posts/</link>
+    <description>Recent content in Posts on Linn</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Jul 2024 22:15:30 +0800</lastBuildDate>
+    <atom:link href="https://iridescentttt.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>24-07-17</title>
+      <link>https://iridescentttt.github.io/posts/24-07-17/</link>
+      <pubDate>Wed, 17 Jul 2024 22:15:30 +0800</pubDate>
+      <guid>https://iridescentttt.github.io/posts/24-07-17/</guid>
+      <description>24-07-17日记</description>
+    </item>
+    <item>
+      <title>24-07-16</title>
+      <link>https://iridescentttt.github.io/posts/24-07-16/</link>
+      <pubDate>Tue, 16 Jul 2024 22:26:56 +0800</pubDate>
+      <guid>https://iridescentttt.github.io/posts/24-07-16/</guid>
+      <description>24-07-16日记</description>
+    </item>
+    <item>
+      <title>实分析(陶哲轩)</title>
+      <link>https://iridescentttt.github.io/posts/analysis/</link>
+      <pubDate>Mon, 15 Jul 2024 17:50:52 +0800</pubDate>
+      <guid>https://iridescentttt.github.io/posts/analysis/</guid>
+      <description>aaa&#xA;bbb&#xA;cccc&#xA;你好</description>
+    </item>
+  </channel>
+</rss>
