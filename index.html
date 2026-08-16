@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Taolin Zhang</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Taolin Zhang is a PhD Student at MMLab@NTU, supervised by Prof. Chen Change Loy.">
+  <meta property="og:site_name" content="Taolin Zhang">
+  <meta property="og:title" content="Taolin Zhang">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Taolin Zhang is a PhD Student at MMLab@NTU, supervised by Prof. Chen Change Loy.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Taolin Zhang">
+  <meta name="twitter:description" content="Taolin Zhang is a PhD Student at MMLab@NTU, supervised by Prof. Chen Change Loy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Mono:wght@400;600&display=swap">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="sidebar-collapsed" data-slug="index">
+  <button class="sidebar-toggle" type="button" aria-label="Open sidebar" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M4 7h16M4 12h16M4 17h16"></path>
+    </svg>
+  </button>
+  <div id="quartz-root" class="page">
+    <div id="quartz-body">
+      <div class="left sidebar">
+        <h2 class="page-title"><a href="#/">Taolin Zhang</a></h2>
+        <div class="spacer mobile-only"></div>
+        <div class="flex-component toolbar">
+          <div class="toolbar-search">
+            <div class="search">
+              <button class="search-button" type="button" aria-label="Open search">
+                <p>Search</p>
+                <svg role="img" viewBox="0 0 19.9 19.7" aria-hidden="true">
+                  <title>Search</title>
+                  <g class="search-path" fill="none">
+                    <path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path>
+                    <circle cx="8" cy="8" r="7"></circle>
+                  </g>
+                </svg>
+              </button>
+              <div class="search-container" aria-hidden="true">
+                <div class="search-space" role="dialog" aria-modal="true" aria-label="Search">
+                  <input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something">
+                  <div class="search-layout" data-preview="true">
+                    <div class="results-container" role="listbox" aria-label="Search results"></div>
+                    <div class="preview-container" aria-live="polite">
+                      <div class="preview-inner"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="toolbar-theme">
+            <button class="darkmode" type="button" aria-label="Toggle dark mode">
+              <svg class="dayIcon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Zm0 4a1 1 0 0 1-1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 1-1 1Zm0-17a1 1 0 0 1-1-1V3a1 1 0 1 1 2 0v1a1 1 0 0 1-1 1Zm9 8h-1a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2ZM4 13H3a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2Zm14.95 6.36-.7-.71a1 1 0 0 1 1.4-1.42l.71.71a1 1 0 1 1-1.41 1.42ZM4.34 5.05a1 1 0 0 1 1.41 0l.71.7a1 1 0 0 1-1.42 1.42l-.7-.71a1 1 0 0 1 0-1.41Zm15.31 0a1 1 0 0 1 0 1.41l-.71.71a1 1 0 0 1-1.41-1.42l.71-.7a1 1 0 0 1 1.41 0ZM5.75 18.65l-.71.71a1 1 0 1 1-1.41-1.42l.7-.71a1 1 0 0 1 1.42 1.42Z"></path>
+              </svg>
+              <svg class="nightIcon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M21.72 15.83a1 1 0 0 0-1.12-.28 8.25 8.25 0 0 1-10.44-10.6 1 1 0 0 0-1.24-1.32A10.25 10.25 0 1 0 22.08 17a1 1 0 0 0-.36-1.17ZM12 20.25A8.25 8.25 0 0 1 6.78 5.62a10.25 10.25 0 0 0 11.65 11.83A8.2 8.2 0 0 1 12 20.25Z"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <main class="center">
+        <div class="page-header">
+          <div class="popover-hint">
+            <h1 class="article-title" id="article-title"></h1>
+            <p show-comma="true" class="content-meta"><time id="article-date"></time></p>
+          </div>
+        </div>
+        <article class="popover-hint" id="article-body"></article>
+        <hr>
+        <div class="page-footer"></div>
+        <footer>
+          <ul id="social-links"></ul>
+        </footer>
+      </main>
+
+      <div class="right sidebar" aria-hidden="true"></div>
+    </div>
+  </div>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
